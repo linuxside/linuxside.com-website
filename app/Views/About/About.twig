@@ -2,6 +2,8 @@
 
 {% block html_title %}About {{ config('website_name') }} blog{% endblock %}
 
+{% block navbar_brand %}<span class="h5 font-weight-normal d-inline-block">{{ config('website_name') }}</span>{% endblock %}
+
 {% block content %}
     <img src="{{ asset('img/about.png') }}" width="1110" height="450" class="img-fluid mb-3" alt="linux flavours">
 
