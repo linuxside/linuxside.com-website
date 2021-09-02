@@ -13,6 +13,9 @@ use App\Command\CreateBlogPostsCache;
 // Debug::enable();
 container()->setParameter('root', $root);
 
+$config = include $root . '/app/config.php';
+container()->setParameter('config', $config);
+
 $application = new Application();
 
 // Register commands
