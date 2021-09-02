@@ -1,0 +1,128 @@
+@font-face {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 300;
+	src:
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8WAc5tU1E.woff2 */
+		url('../font/google-nunito-sans/Nunito_Sans_300.woff2') format('woff2'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8WAc5tU1c.woff */
+		url('../font/google-nunito-sans/Nunito_Sans_300.woff') format('woff'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8WAc5tU1U.eot */
+		url('../font/google-nunito-sans/Nunito_Sans_300.eot?#iefix') format('embedded-opentype'),
+		/* from https://fonts.gstatic.com/l/font?kit=pe03MImSLYBIv1o4X1M8cc8WAc5tU1Y&skey=34beec50e5c4269c&v=v6#NunitoSans */
+		url('../font/google-nunito-sans/Nunito_Sans_300.svg#NunitoSans') format('svg'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8WAc5tU1Q.ttf */
+		url('../font/google-nunito-sans/Nunito_Sans_300.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Nunito Sans';
+	font-style: italic;
+	font-weight: 300;
+	src:
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G3JoY1MIUg.woff2 */
+		url('../font/google-nunito-sans/Nunito_Sans_300i.woff2') format('woff2'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G3JoY1MIVA.woff */
+		url('../font/google-nunito-sans/Nunito_Sans_300i.woff') format('woff'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G3JoY1MIVg.eot */
+		url('../font/google-nunito-sans/Nunito_Sans_300i.eot?#iefix') format('embedded-opentype'),
+		/* from https://fonts.gstatic.com/l/font?kit=pe01MImSLYBIv1o4X1M8cce4G3JoY1MIVQ&skey=98fe6aa191d32a19&v=v6#NunitoSans */
+		url('../font/google-nunito-sans/Nunito_Sans_300i.svg#NunitoSans') format('svg'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G3JoY1MIVw.ttf */
+		url('../font/google-nunito-sans/Nunito_Sans_300i.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2 */
+		url('../font/google-nunito-sans/Nunito_Sans_400.woff2') format('woff2'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I90.woff */
+		url('../font/google-nunito-sans/Nunito_Sans_400.woff') format('woff'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I98.eot */
+		url('../font/google-nunito-sans/Nunito_Sans_400.eot?#iefix') format('embedded-opentype'),
+		/* from https://fonts.gstatic.com/l/font?kit=pe0qMImSLYBIv1o4X1M8cce9I9w&skey=60bfdc605ddb00b1&v=v6#NunitoSans */
+		url('../font/google-nunito-sans/Nunito_Sans_400.svg#NunitoSans') format('svg'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I94.ttf */
+		url('../font/google-nunito-sans/Nunito_Sans_400.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Nunito Sans';
+	font-style: italic;
+	font-weight: 400;
+	src:
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe0oMImSLYBIv1o4X1M8cce4E9lKdg.woff2 */
+		url('../font/google-nunito-sans/Nunito_Sans_400i.woff2') format('woff2'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe0oMImSLYBIv1o4X1M8cce4E9lKcA.woff */
+		url('../font/google-nunito-sans/Nunito_Sans_400i.woff') format('woff'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe0oMImSLYBIv1o4X1M8cce4E9lKcg.eot */
+		url('../font/google-nunito-sans/Nunito_Sans_400i.eot?#iefix') format('embedded-opentype'),
+		/* from https://fonts.gstatic.com/l/font?kit=pe0oMImSLYBIv1o4X1M8cce4E9lKcQ&skey=8952ce414dafd5f2&v=v6#NunitoSans */
+		url('../font/google-nunito-sans/Nunito_Sans_400i.svg#NunitoSans') format('svg'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe0oMImSLYBIv1o4X1M8cce4E9lKcw.ttf */
+		url('../font/google-nunito-sans/Nunito_Sans_400i.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5tU1E.woff2 */
+		url('../font/google-nunito-sans/Nunito_Sans_700.woff2') format('woff2'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5tU1c.woff */
+		url('../font/google-nunito-sans/Nunito_Sans_700.woff') format('woff'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5tU1U.eot */
+		url('../font/google-nunito-sans/Nunito_Sans_700.eot?#iefix') format('embedded-opentype'),
+		/* from https://fonts.gstatic.com/l/font?kit=pe03MImSLYBIv1o4X1M8cc8GBs5tU1Y&skey=cc2992921884e495&v=v6#NunitoSans */
+		url('../font/google-nunito-sans/Nunito_Sans_700.svg#NunitoSans') format('svg'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5tU1Q.ttf */
+		url('../font/google-nunito-sans/Nunito_Sans_700.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Nunito Sans';
+	font-style: italic;
+	font-weight: 700;
+	src:
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G2JvY1MIUg.woff2 */
+		url('../font/google-nunito-sans/Nunito_Sans_700i.woff2') format('woff2'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G2JvY1MIVA.woff */
+		url('../font/google-nunito-sans/Nunito_Sans_700i.woff') format('woff'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G2JvY1MIVg.eot */
+		url('../font/google-nunito-sans/Nunito_Sans_700i.eot?#iefix') format('embedded-opentype'),
+		/* from https://fonts.gstatic.com/l/font?kit=pe01MImSLYBIv1o4X1M8cce4G2JvY1MIVQ&skey=270489b74d8f613d&v=v6#NunitoSans */
+		url('../font/google-nunito-sans/Nunito_Sans_700i.svg#NunitoSans') format('svg'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G2JvY1MIVw.ttf */
+		url('../font/google-nunito-sans/Nunito_Sans_700i.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 800;
+	src:
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8aBc5tU1E.woff2 */
+		url('../font/google-nunito-sans/Nunito_Sans_800.woff2') format('woff2'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8aBc5tU1c.woff */
+		url('../font/google-nunito-sans/Nunito_Sans_800.woff') format('woff'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8aBc5tU1U.eot */
+		url('../font/google-nunito-sans/Nunito_Sans_800.eot?#iefix') format('embedded-opentype'),
+		/* from https://fonts.gstatic.com/l/font?kit=pe03MImSLYBIv1o4X1M8cc8aBc5tU1Y&skey=455d87138f5ce23c&v=v6#NunitoSans */
+		url('../font/google-nunito-sans/Nunito_Sans_800.svg#NunitoSans') format('svg'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8aBc5tU1Q.ttf */
+		url('../font/google-nunito-sans/Nunito_Sans_800.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Nunito Sans';
+	font-style: italic;
+	font-weight: 800;
+	src:
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G35sY1MIUg.woff2 */
+		url('../font/google-nunito-sans/Nunito_Sans_800i.woff2') format('woff2'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G35sY1MIVA.woff */
+		url('../font/google-nunito-sans/Nunito_Sans_800i.woff') format('woff'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G35sY1MIVg.eot */
+		url('../font/google-nunito-sans/Nunito_Sans_800i.eot?#iefix') format('embedded-opentype'),
+		/* from https://fonts.gstatic.com/l/font?kit=pe01MImSLYBIv1o4X1M8cce4G35sY1MIVQ&skey=60c7794e0b839671&v=v6#NunitoSans */
+		url('../font/google-nunito-sans/Nunito_Sans_800i.svg#NunitoSans') format('svg'),
+		/* from https://fonts.gstatic.com/s/nunitosans/v6/pe01MImSLYBIv1o4X1M8cce4G35sY1MIVw.ttf */
+		url('../font/google-nunito-sans/Nunito_Sans_800i.ttf') format('truetype');
+}

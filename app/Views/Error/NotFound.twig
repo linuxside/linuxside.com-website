@@ -1,0 +1,16 @@
+{% extends "Layout/Main.twig" %}
+
+{% block html_title %}Page not found | {{ config('website_name') }}{% endblock %}
+
+{% block after_head %}
+    <meta name="robots" content="noindex, nofollow, noarchive">
+{% endblock %}
+
+{% block content %}
+    <h2>Not found</h2>
+
+    <p>The page <strong>was not found</strong>!</p>
+    <p>
+        <a href="{{ route('home') }}" class="btn btn-light border">Go to homepage</a>
+    </p>
+{% endblock %}

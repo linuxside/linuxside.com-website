@@ -1,0 +1,95 @@
+// General
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    font-size: 1.1rem;
+}
+strong, b {
+    font-weight: 700;
+}
+a, a:hover {
+    display: inline-block;
+    color: #a162c1;
+}
+em {
+    font-style: italic;
+}
+
+::selection{
+    background-color: #a162c1;
+    color: #ffffff;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    font-weight: 700;
+}
+
+h1, .h1 {
+    font-size: 1.8rem;
+}
+
+// Navbar
+.navbar-brand {
+    font-size: 1.4rem;
+}
+.navbar-nav .nav-link {
+    font-weight: 700;
+}
+
+// Content
+.content {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+// Blog listing
+.blog-listing {
+    line-height: 1.5;
+
+    > a,
+    > a:hover {
+        font-size: 1.3rem;
+        margin-bottom: 0.7rem;
+        font-weight: 700;
+    }
+}
+
+// Blog details
+.blog-details {
+    line-height: 1.5;
+
+    .title {
+        margin-bottom: 1.5rem;
+
+        svg {
+            margin-right: 0.25rem;
+        }
+        svg path {
+            fill: #6c757d;
+        }
+    }
+
+    h1 {
+        color: #a162c1;
+    }
+
+    ol {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-bottom: 1.2rem;
+        margin-top: 1.2rem;
+        padding-left: 1.3rem;
+    }
+    ul {
+        padding-left: 1rem;
+    }
+}
+
+@import "highlight.js/scss/default";
+@import "highlight.js/scss/stackoverflow-light";

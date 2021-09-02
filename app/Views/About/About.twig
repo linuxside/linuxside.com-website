@@ -1,0 +1,21 @@
+{% extends "Layout/About.twig" %}
+
+{% block html_title %}About {{ config('website_name') }} blog{% endblock %}
+
+{% block content %}
+    <img src="{{ asset('img/about.png') }}" width="1110" height="450" class="img-fluid mb-3" alt="linux flavours">
+
+    <h1 class="mb-4">About this blog</h1>
+
+    <p>My story with <strong>Linux</strong> began in <strong>2004</strong>, when a friend of mine showed me a newly installed command line version of <strong>Ubuntu 4</strong>.</p>
+
+    <p>I was amazed by the size of the installation, the speed and the apparent "<strong>simplicity</strong>". But the most, it amazed me the <strong>CLI (command line)</strong> applications, like <code>irssi</code> and <code>teamspeak server</code>. At that time, the Linux world didn't have that many applications and many of them required compilation under strict Linux distributions and versions, and you had to know how to do it. So, I restricted myself at searching through <strong>Ubuntu repositories</strong> and installing all the applications that I wanted to try.</p>
+
+    <p>Because I also wanted a desktop environment and <strong>Linux desktops</strong> had fewer apparent apps than <strong>Windows</strong> and having higher expectations, it took a few years before I got hooked in the Linux world. Today I cannot imagine not having at least one Linux machine doing some tasks. I have several machines running Linux, each one serving a different purpose.</p>
+
+    <p>Over the years I tried many Linux distribution flavours, from <strong>Knoppix</strong>, <strong>Ubuntu</strong>, <strong>Debian</strong>, <strong>Arch</strong>, <strong>Manjaro</strong>, <strong>Raspbian OS</strong>, etc and many of them were command line only. There isn't one distribution that I like most. At this moment, I just know more about Debian based Linux distributions, but I'm always learning, so this might change in the future.</p>
+
+    <p>Now, this blog will server me as a <strong>notepad</strong>, were otherwise all the text notes about specific applications/installations/configurations are scattered throughout <strong>many machines</strong> and <strong>various external drives</strong>. It drives me nuts to search every time for that specific task that I know I managed best a few month ago.</p>
+
+    <p>Also, this blog might be <strong>beneficial to others</strong>, as I previously had a blog at <strong>blogpost.com</strong> that got <strong>deleted by Google automated system</strong> by some reason, and which had quite a few visitors over time.</p>
+{% endblock %}

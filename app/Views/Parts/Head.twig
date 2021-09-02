@@ -1,0 +1,7 @@
+{% if before_head is defined %}{{ before_head|raw }}{% endif %}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if html_title is empty %}{{ config('website_name') }}{% else %}{{ html_title }}{% endif %}</title>
+<link href="{{ asset('css/style.css') }}" rel="stylesheet">
+{% if after_head is defined %}{{ after_head|raw }}{% endif %}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    {% if block('html_title') is not defined %}{% block html_title %}{% endblock %}{% endif %}
+    {% if block('before_head') is not defined %}{% block before_head %}{% endblock %}{% endif %}
+    {% if block('after_head') is not defined %}{% block after_head %}{% endblock %}{% endif %}
+    {% include 'Parts/Head.twig' with {
+        html_title: block('html_title'),
+        before_head: block('before_head'),
+        after_head: block('after_head')
+    } %}
+</head>
+<body class="vh-100">
+    {% if block('navbar_brand') is not defined %}{% block navbar_brand %}{% endblock %}{% endif %}
+    {% include 'Parts/Menu.twig' with {
+        navbar_brand: block('navbar_brand')
+    } %}
+    <div class="container content">
+        {% block content %}{% endblock %}
+    </div>
+    {% include 'Parts/Footer.twig' %}
+</body>
+</html>

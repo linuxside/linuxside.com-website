@@ -1,0 +1,12 @@
+{% extends "Layout/Main.twig" %}
+
+{% block html_title %}{{ config('website_name') }} blog posts{% endblock %}
+
+{% block content %}
+    <div class="blog-listing">
+        {% for post in allPosts %}
+            <a href="{{ route('blog_post', {'url': post.url}) }}">{{ post.title }}</a>
+            <div class="summary">{{ post.summary|raw }}</div>
+        {% endfor %}
+    </div>
+{% endblock %}

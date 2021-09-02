@@ -1,0 +1,36 @@
+{
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development gulp",
+        "watch": "gulp watch",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production gulp"
+    },
+    "devDependencies": {
+        "bootstrap": "^4.6.0",
+        "browserify": "^17.0.0",
+        "cross-env": "^7.0.3",
+        "del": "^6.0.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-rename": "^2.0.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-tap": "^2.0.0",
+        "gulp-uglify": "^3.0.2",
+        "highlight.js": "^11.2.0",
+        "jquery": "^3.6.0",
+        "popper.js": "^1.16.1"
+    },
+    "browserslist": [
+        "last 5 versions",
+        "> 1%",
+        "Firefox ESR",
+        "not dead"
+    ],
+    "dependencies": {
+        "gulp-buffer": "0.0.2",
+        "gulplog": "^1.0.0"
+    }
+}
