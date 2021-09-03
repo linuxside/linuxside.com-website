@@ -9,6 +9,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing;
 use App\Content\BlogPosts;
+use App\Controllers\NotFound;
 
 Debug::enable();
 container()->setParameter('root', $root);
@@ -39,7 +40,7 @@ try {
 
     $response = call_user_func([new $controller, $method], $request);
 } catch (Routing\Exception\ResourceNotFoundException $e) {
-    $response = call_user_func(['App\\Controllers\\NotFound', 'index'], $request);
+    $response = call_user_func([new NotFound, 'index'], $request);
 } catch (Throwable $e) {
     $response = new Response(sprintf(
         'An error occurred: <b>%s</b><br />File: <b>%s</b><br />Line: <b>%d</b>',
