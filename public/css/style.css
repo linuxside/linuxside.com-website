@@ -8150,6 +8150,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 300;
+  font-display: swap;
   src: url("../font/google-nunito-sans/Nunito_Sans_300.woff2") format("woff2"), url("../font/google-nunito-sans/Nunito_Sans_300.woff") format("woff"), url("../font/google-nunito-sans/Nunito_Sans_300.eot?#iefix") format("embedded-opentype"), url("../font/google-nunito-sans/Nunito_Sans_300.svg#NunitoSans") format("svg"), url("../font/google-nunito-sans/Nunito_Sans_300.ttf") format("truetype");
 }
 
@@ -8157,6 +8158,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: 'Nunito Sans';
   font-style: italic;
   font-weight: 300;
+  font-display: swap;
   src: url("../font/google-nunito-sans/Nunito_Sans_300i.woff2") format("woff2"), url("../font/google-nunito-sans/Nunito_Sans_300i.woff") format("woff"), url("../font/google-nunito-sans/Nunito_Sans_300i.eot?#iefix") format("embedded-opentype"), url("../font/google-nunito-sans/Nunito_Sans_300i.svg#NunitoSans") format("svg"), url("../font/google-nunito-sans/Nunito_Sans_300i.ttf") format("truetype");
 }
 
@@ -8164,6 +8166,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url("../font/google-nunito-sans/Nunito_Sans_400.woff2") format("woff2"), url("../font/google-nunito-sans/Nunito_Sans_400.woff") format("woff"), url("../font/google-nunito-sans/Nunito_Sans_400.eot?#iefix") format("embedded-opentype"), url("../font/google-nunito-sans/Nunito_Sans_400.svg#NunitoSans") format("svg"), url("../font/google-nunito-sans/Nunito_Sans_400.ttf") format("truetype");
 }
 
@@ -8171,6 +8174,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: 'Nunito Sans';
   font-style: italic;
   font-weight: 400;
+  font-display: swap;
   src: url("../font/google-nunito-sans/Nunito_Sans_400i.woff2") format("woff2"), url("../font/google-nunito-sans/Nunito_Sans_400i.woff") format("woff"), url("../font/google-nunito-sans/Nunito_Sans_400i.eot?#iefix") format("embedded-opentype"), url("../font/google-nunito-sans/Nunito_Sans_400i.svg#NunitoSans") format("svg"), url("../font/google-nunito-sans/Nunito_Sans_400i.ttf") format("truetype");
 }
 
@@ -8178,6 +8182,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url("../font/google-nunito-sans/Nunito_Sans_700.woff2") format("woff2"), url("../font/google-nunito-sans/Nunito_Sans_700.woff") format("woff"), url("../font/google-nunito-sans/Nunito_Sans_700.eot?#iefix") format("embedded-opentype"), url("../font/google-nunito-sans/Nunito_Sans_700.svg#NunitoSans") format("svg"), url("../font/google-nunito-sans/Nunito_Sans_700.ttf") format("truetype");
 }
 
@@ -8185,6 +8190,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: 'Nunito Sans';
   font-style: italic;
   font-weight: 700;
+  font-display: swap;
   src: url("../font/google-nunito-sans/Nunito_Sans_700i.woff2") format("woff2"), url("../font/google-nunito-sans/Nunito_Sans_700i.woff") format("woff"), url("../font/google-nunito-sans/Nunito_Sans_700i.eot?#iefix") format("embedded-opentype"), url("../font/google-nunito-sans/Nunito_Sans_700i.svg#NunitoSans") format("svg"), url("../font/google-nunito-sans/Nunito_Sans_700i.ttf") format("truetype");
 }
 
@@ -8192,6 +8198,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 800;
+  font-display: swap;
   src: url("../font/google-nunito-sans/Nunito_Sans_800.woff2") format("woff2"), url("../font/google-nunito-sans/Nunito_Sans_800.woff") format("woff"), url("../font/google-nunito-sans/Nunito_Sans_800.eot?#iefix") format("embedded-opentype"), url("../font/google-nunito-sans/Nunito_Sans_800.svg#NunitoSans") format("svg"), url("../font/google-nunito-sans/Nunito_Sans_800.ttf") format("truetype");
 }
 
@@ -8199,6 +8206,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: 'Nunito Sans';
   font-style: italic;
   font-weight: 800;
+  font-display: swap;
   src: url("../font/google-nunito-sans/Nunito_Sans_800i.woff2") format("woff2"), url("../font/google-nunito-sans/Nunito_Sans_800i.woff") format("woff"), url("../font/google-nunito-sans/Nunito_Sans_800i.eot?#iefix") format("embedded-opentype"), url("../font/google-nunito-sans/Nunito_Sans_800i.svg#NunitoSans") format("svg"), url("../font/google-nunito-sans/Nunito_Sans_800i.ttf") format("truetype");
 }
 
