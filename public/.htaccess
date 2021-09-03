@@ -13,6 +13,20 @@
     AddOutputFilterByType DEFLATE image/svg+xml
 </IfModule>
 
+# Set caching for static files
+<IfModule mod_expires.c>
+    <FilesMatch "\.(jpeg|jpg|gif|png|svg|ico|txt|js|css|woff2|woff|ttf|eot)$">
+        ExpiresActive on
+        ExpiresDefault "access plus 1 year"
+        <IfModule mod_headers.c>
+            Header set Expires "Thu, 31 Dec 2037 23:59:59 GMT"
+            Header set Cache-Control "public,max-age=315360000"
+            Header set Vary "Accept-Encoding"
+            Header unset ETag
+        </IfModule>
+    </FilesMatch>
+</IfModule>
+
 # Mode rewrite is enabled
 <IfModule mod_rewrite.c>
     # Disable directory indexing
