@@ -1,14 +1,16 @@
 ## Introduction
 
-This blog was made with the help of [Fabien Potencier](http://fabien.potencier.org/) tutorial about [creating your own framework](https://symfony.com/doc/current/create_framework/index.html) with [Symphony](https://symfony.com/) and it is inspired by [Laravel framework](https://laravel.com/). It uses some of the Symphony components and the [Twig](https://twig.symfony.com/) template engine.
+This blog was made with the help of [Fabien Potencier](http://fabien.potencier.org/) tutorial about [creating your own framework](https://symfony.com/doc/current/create_framework/index.html) with [Symphony](https://symfony.com/) and it is inspired by [Laravel framework](https://laravel.com/). It uses some of the Symphony components and the [Twig](https://twig.symfony.com/) template engine. In the frontend, it uses [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) with [jQuery](https://jquery.com/).
 
 Some of its features include:
 
-- flat files local storage
+- flat files storage
 - the content uses markup format
 - no third-party requests (css, js, etc)
 - no cookies usage (or browser storage)
 - fast loading time
+
+A *demo* can be seen at [linuxside.com](https://linuxside.com/).
 
 ## Requirements
 
@@ -22,7 +24,9 @@ Some of its features include:
 **1. Pull the project from github**
 
 ```bash
-sudo -u www-data git clone https://github.com/linuxside/linuxside.com-website /var/www/linuxside.com
+sudo -u www-data git clone \
+    https://github.com/linuxside/linuxside.com-website \
+    /var/www/linuxside.com
 cd linuxside.com
 ```
 
@@ -37,6 +41,15 @@ sudo -u www-data composer install
 ```bash
 sudo -u www-data npm install
 ```
+
+**4. Generate the cache for blog posts**
+
+```bash
+chmod u+x ./console.php
+sudo -u www-data ./console.php app:blog-posts-cache
+```
+
+**Note:** you have to run this command everytime you update any of your posts.
 
 ## Running the website locally
 
