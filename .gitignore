@@ -1,5 +1,6 @@
 /node_modules
 /vendor
+/apache_logs
 *.zip
 *.ppk
 *.openssh
