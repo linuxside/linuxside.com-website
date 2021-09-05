@@ -2,7 +2,7 @@
 
 {% block html_title %}{{ config('website_name') }} blog posts{% endblock %}
 
-{% block canonical %}{{ route('home') }}{% endblock %}
+{% block canonical %}{{ route('home', {}, true) }}{% endblock %}
 
 {% block content %}
     <div class="blog-listing">

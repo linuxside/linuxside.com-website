@@ -2,7 +2,7 @@
 
 {% block html_title %}{{ post.title }} | {{ config('website_name') }}{% endblock %}
 
-{% block canonical %}{{ route('blog_post', {'url': post.url}) }}{% endblock %}
+{% block canonical %}{{ route('blog_post', {'url': post.url}, true) }}{% endblock %}
 
 {% block navbar_brand %}<span class="h5 font-weight-normal d-inline-block">{{ config('website_name') }}</span>{% endblock %}
 
