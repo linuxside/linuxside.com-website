@@ -4,10 +4,12 @@
     {% if block('html_title') is not defined %}{% block html_title %}{% endblock %}{% endif %}
     {% if block('before_head') is not defined %}{% block before_head %}{% endblock %}{% endif %}
     {% if block('after_head') is not defined %}{% block after_head %}{% endblock %}{% endif %}
+    {% if block('canonical') is not defined %}{% block canonical %}{% endblock %}{% endif %}
     {% include 'Parts/Head.twig' with {
         html_title: block('html_title'),
         before_head: block('before_head'),
-        after_head: block('after_head')
+        after_head: block('after_head'),
+        canonical: block('canonical')
     } %}
 </head>
 <body class="vh-100">

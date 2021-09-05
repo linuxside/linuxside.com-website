@@ -2,6 +2,8 @@
 
 {% block html_title %}{{ config('website_name') }} blog posts{% endblock %}
 
+{% block canonical %}{{ route('home') }}{% endblock %}
+
 {% block content %}
     <div class="blog-listing">
         {% for post in allPosts %}

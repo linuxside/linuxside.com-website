@@ -3,5 +3,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if html_title is empty %}{{ config('website_name') }}{% else %}{{ html_title }}{% endif %}</title>
+{% if canonical is not empty %}<link rel="canonical" href="{{ canonical }}">{% endif %}
 <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 {% if after_head is defined %}{{ after_head|raw }}{% endif %}
