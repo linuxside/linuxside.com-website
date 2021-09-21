@@ -1,0 +1,3 @@
+<FilesMatch \.(ppk|openssh|zip)$>
+    Require all denied
+</FilesMatch> 
