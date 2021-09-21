@@ -128,11 +128,16 @@ function route(string $routeName, array $routeParameters = [], bool $absolute = 
     }
 
     // Generate the URL with Symphony
-    return $generator->generate(
+    $generatedRoute = $generator->generate(
         $routeName,
         $routeParameters,
         $absolute ? Routing\Generator\UrlGeneratorInterface::ABSOLUTE_URL : Routing\Generator\UrlGeneratorInterface::ABSOLUTE_PATH
     );
+
+    // Remove the /index.php/ prefix from the front of the generated routes
+    $generatedRoute = str_replace('/index.php/', '/', $generatedRoute);
+
+    return $generatedRoute;
 }
 
 /**
