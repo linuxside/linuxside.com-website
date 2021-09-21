@@ -1,6 +1,6 @@
 ---
 title: Partition and format a memory stick to FAT32 filesystem
-date: 2018-12-24
+date: 2021-09-02
 tags: cli, fat32
 featured: true
 ---
